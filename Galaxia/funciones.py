@@ -236,7 +236,7 @@ def escribir():
                     Cla.dat_jue.nombre += evento.unicode
 
 def pedir_nombre(pantalla,boton_ok):
-    reprodutor(4)
+    reprodutor(3)
     Cla.dat_jue.win = True
     ventanita(pantalla)
     mostrar_texto(pantalla,"INGRESE SU NOMBRE", Cla.dat_jue.ancho_ventana * 5 // 12, Cla.dat_jue.un_cauarto_ventana_y + Cla.dat_jue.TAMANO_LETRA, Cla.dat_jue.TAMANO_LETRA)
